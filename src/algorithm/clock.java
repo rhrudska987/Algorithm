@@ -1,4 +1,4 @@
-package Fibonacci_Chicken;
+package algorithm;
 
 import java.io.File;
 import java.util.ArrayList;

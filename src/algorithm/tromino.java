@@ -1,4 +1,4 @@
-package Fibonacci_Chicken;
+package algorithm;
 
 import java.util.Scanner;
 
@@ -43,7 +43,6 @@ public class tromino {
 		int j = sc.nextInt();
 		tromino[j - 1][i - 1] = -1;
 		sol(tromino, 0, 0, size);
-		
 		
 		for(int k=0; k < size; k++) {
 			for(int l = 0; l < size; l++) {
